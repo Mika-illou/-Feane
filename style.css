@@ -1,315 +1,347 @@
  :root {
-            --primary-color: #ffbe33;
-            --dark-bg: #222831;
-            --text-light: #ffffff;
-        }
-        
-        body {
-            font-family: 'Poppins', sans-serif;
-            background-color: white;
-        }
-        
-        .logo {
-            font-family: 'Dancing Script', cursive;
-            font-size: 2rem;
-            color: var(--text-light);
-            text-decoration: none;
-        }
-        
-        
-        /* Header/Navbar */
-        .navbar {
-            padding: 1rem 0;
-        }
-        .lien_icoin i:hover{
-            cursor: pointer;
-            color: #e6a82e !important;
-        }
-        
-        .navbar-nav .nav-link {
-            color: var(--text-light) !important;
-            margin: 0 1rem;
-            font-weight: 400;
-            transition: color 0.3s;
-        }
-        
-        .navbar-nav .nav-link:hover {
-            color: var(--primary-color) !important;
-        }
-        
-        .btn-order {
-            background-color: var(--primary-color);
-            color: white !important;
-            padding: 0.5rem 2rem;
-            border-radius: 30px;
-            font-weight: 600;
-            border: none;
-        }
-        
-        .btn-order:hover {
-            background-color: #e6a82e;
-            transform: translateY(1.05);
-            
-        }
-        
-        /* Hero Section */
-        .hero-section {
-            background-image: url('./image/hero-bg.jpg');
-            background-size: cover; 
-            background-position: center;
-            height: 100vh;
-            width: 100%;
-            align-items: center;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .carousel-item h1 {
-            font-family: 'Dancing Script', cursive;
-            font-size: 4rem;
-            color: var(--text-light);
-            margin-bottom: 1.5rem;
-        }
-        
-        .carousel-item p {
-            color: #cbd5e0;
-            font-size: 1.1rem;
-            line-height: 1.8;
-            margin-bottom: 2rem;
-            
-        }
+     --primary-color: #ffbe33;
+     --dark-bg: #222831;
+     --text-light: #ffffff;
+ }
 
-        .carousel-indicators {
-            position: relative !important;
-            margin: 0;
-            display: flex;
-            justify-content: start;
+ body {
+     font-family: 'Poppins', sans-serif;
+     background-color: white;
+ }
 
-        }
-        
-        .offer-card {
-            background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
-            border-radius: 15px;
-            padding: 2rem;
-            color: var(--text-light);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .offer-card .offer-img {
-            width: 150px;
-            height: 150px;
-            border: 5px solid var(--primary-color);
-            border-radius: 50%;
-            overflow: hidden;
-           margin-top: 2rem;
-        }
-        .offer-img img:hover {
-            transform: translateY(1.05px);
+ .logo {
+     font-family: 'Dancing Script', cursive;
+     font-size: 2rem;
+     color: var(--text-light);
+     text-decoration: none;
+ }
 
 
-        } 
-        
-        .offer-card h3 {
-            font-family: 'Dancing Script', cursive;
-            font-size: 1.8rem;
-            margin-bottom: 0.5rem;
-        }
-        
-        .offer-card .discount {
-            font-size: 2.5rem;
-            font-weight: bold;
-            color: var(--text-light);
-        }
-        
-        /* Menu Section */
+ /* Header/Navbar */
+ .navbar {
+     padding: 1rem 0;
+ }
 
-       
-        .section-title {
-            font-family: 'Dancing Script', cursive;
-            font-size: 3rem;
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-        
-        .menu-filters {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-        
-        .menu-filters .btn {
-            border-radius: 25px;
-            padding: 0.6rem 2rem;
-            margin: 0.5rem;
-            background-color: white;
-            border: 1px solid #ddd;
-            color: #666;
-        }
-        
-        .menu-filters .btn.active {
-            background-color: var(--dark-bg);
-            color: white;
-        }
-        
-        .Tree_card{
-            border-bottom-left-radius: 20% !important;
-            border-top-left-radius: 5px !important;
-            border-top-right-radius: 5px !important;
-            height: 250px;
-            background-color: #F2F2F4 !important;
-        }
+ .lien_icoin i:hover {
+     cursor: pointer;
+     color: #e6a82e !important;
+ }
 
-        .card-img-top{
-            height: 200px;
-            width: 200px;
-        }
-        .card-img-top:hover {
-            transform: translateY(1.05px);
+ .navbar-nav .nav-link {
+     color: var(--text-light) !important;
+     margin: 0 1rem;
+     font-weight: 400;
+     transition: color 0.3s;
+ }
 
-        } 
+ .navbar-nav .nav-link:hover {
+     color: var(--primary-color) !important;
+ }
+
+ .btn-order {
+     background-color: var(--primary-color);
+     color: white !important;
+     padding: 0.5rem 2rem;
+     border-radius: 30px;
+     font-weight: 600;
+     border: none;
+ }
+
+ .btn-order:hover {
+     background-color: #e6a82e;
+     transform: translateY(1.05);
+ }
+
+ 
+ /* Hero Section */
+ .hero-section {
+     background-image: url('./image/hero-bg.jpg');
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+     width: 100%;
+     align-items: center;
+     position: relative;
+     overflow: hidden;
+ }
+
+ .carousel-item h1 {
+     font-family: 'Dancing Script', cursive;
+     font-size: 4rem;
+     color: var(--text-light);
+     margin-bottom: 1.5rem;
+ }
+
+ .carousel-item p {
+     color: #cbd5e0;
+     font-size: 1.1rem;
+     line-height: 1.8;
+     margin-bottom: 2rem;
+
+ }
+
+ .carousel-indicators {
+     position: relative !important;
+     margin: 0;
+     display: flex;
+     justify-content: start;
+
+ }
+
+ .offer-card {
+     background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+     border-radius: 15px;
+     padding: 2rem;
+     color: var(--text-light);
+     position: relative;
+     overflow: hidden;
+ }
+
+ .offer-card .offer-img {
+     width: 150px;
+     height: 150px;
+     border: 5px solid var(--primary-color);
+     border-radius: 50%;
+     overflow: hidden;
+     margin-top: 2rem;
+ }
+
+ .offer-img img:hover {
+     transform: translateY(1.05px);
+
+
+ }
+
+ .offer-card h3 {
+     font-family: 'Dancing Script', cursive;
+     font-size: 1.8rem;
+     margin-bottom: 0.5rem;
+ }
+
+ .offer-card .discount {
+     font-size: 2.5rem;
+     font-weight: bold;
+     color: var(--text-light);
+ }
+
+ /* Menu Section */
+
+
+ .section-title {
+     font-family: 'Dancing Script', cursive;
+     font-size: 3rem;
+     text-align: center;
+     margin-bottom: 3rem;
+ }
+
+ .menu-filters {
+     text-align: center;
+     margin-bottom: 3rem;
+ }
+
+ .menu-filters .btn {
+     border-radius: 25px;
+     padding: 0.6rem 2rem;
+     margin: 0.5rem;
+     background-color: white;
+     border: 1px solid #ddd;
+     color: #666;
+ }
+
+ .menu-filters .btn.active {
+     background-color: var(--dark-bg);
+     color: white;
+ }
+
+ .Tree_card {
+     border-bottom-left-radius: 20% !important;
+     border-top-left-radius: 5px !important;
+     border-top-right-radius: 5px !important;
+     height: 250px;
+     background-color: #F2F2F4 !important;
+ }
+
+ .card-img-top {
+     height: 200px;
+     width: 200px;
+ }
+
+ .card-img-top:hover {
+     transform: translateY(1.05px);
+
+ }
+
+ .menu-card {
+     border-radius: 15px;
+     overflow: hidden;
+     transition: transform 0.3s;
+     margin-bottom: 2rem;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+ }
+
+ .cart-btn {
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     background-color: var(--primary-color);
+     border: none;
+     position: absolute;
+     bottom: 1rem;
+     right: 1rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ /* About Section */
+ .about-section {
+     background-color: var(--dark-bg);
+     color: var(--text-light);
+     padding: 5rem 0;
+ }
+
+ .about-section h2 {
+     font-family: 'Dancing Script', cursive;
+     font-size: 3rem;
+ }
+
+
+ /* Book Table Section */
+ .book-section {
+     padding: 5rem 0;
+     background-color: #f8f9fa;
+ }
+
+ .book-section h2 {
+     font-family: 'Dancing Script', cursive;
+     font-size: 3rem;
+     margin-bottom: 2rem;
+ }
+
+ .book-form .form-control,
+ .book-form .form-select {
+     border-radius: 10px;
+     padding: 1rem;
+     margin-bottom: 1.5rem;
+     border: 1px solid #ddd;
+ }
+
+ .ifr {
+     min-height: 400px;
+ }
+
+ /* Testimonials */
+
+
+ .testimonial-card {
+     background-color: var(--dark-bg);
+     color: var(--text-light);
+     border-radius: 15px;
+ }
+
+ .testimonial-img {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     border: 5px solid var(--primary-color);
+     margin: -50px auto 1rem;
+     overflow: hidden;
+ }
+
+ .testimonial-img img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ .carousel-custom-controls {
+     position: absolute;
+     bottom: -50px;
+     margin-top: 200px !important;
+     left: 50%;
+     transform: translateX(-50%);
+ }
+
+ .custom-btn {
+     position: static;
+     width: 50px;
+     height: 50px;
+     background-color: #FFBE31;
+     border-radius: 50%;
+     opacity: 1;
+ }
+
+ .custom-btn:hover {
+     background-color: #FFBE31;
     
-        .menu-card {
-            border-radius: 15px;
-            overflow: hidden;
-            transition: transform 0.3s;
-            margin-bottom: 2rem;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-        
-        .cart-btn {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background-color: var(--primary-color);
-            border: none;
-            position: absolute;
-            bottom: 1rem;
-            right: 1rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        /* About Section */
-        .about-section {
-            background-color: var(--dark-bg);
-            color: var(--text-light);
-            padding: 5rem 0;
-        }
-        
-        .about-section h2 {
-            font-family: 'Dancing Script', cursive;
-            font-size: 3rem;
-        }
-        
-       
-        /* Book Table Section */
-        .book-section {
-            padding: 5rem 0;
-            background-color: #f8f9fa;
-        }
-        
-        .book-section h2 {
-            font-family: 'Dancing Script', cursive;
-            font-size: 3rem;
-            margin-bottom: 2rem;
-        }
-        
-        .book-form .form-control,
-        .book-form .form-select {
-            border-radius: 10px;
-            padding: 1rem;
-            margin-bottom: 1.5rem;
-            border: 1px solid #ddd;
-        }
-       .ifr{
-min-height: 400px;            
-        }
-        
-        /* Testimonials */
-        
-        
-        .testimonial-card {
-            background-color: var(--dark-bg);
-            color: var(--text-light);
-            border-radius: 15px;
-        }
-        
-        .testimonial-img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            border: 5px solid var(--primary-color);
-            margin: -50px auto 1rem;
-            overflow: hidden;
-        }
-        
-        .testimonial-img img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        
-        /* Footer */
-        footer {
-            background-color: var(--dark-bg);
-            color: var(--text-light);
-            padding: 3rem 0 1rem;
-        }
-        
-        footer h5 {
-            font-family: 'Dancing Script', cursive;
-            font-size: 2rem;
-        }
-        
-        footer .social-icons a {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background-color: white;
-            color: var(--dark-bg);
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 0.3rem;
-            transition: all 0.3s;
-        }
-        
-        footer .social-icons a:hover {
-            background-color: var(--primary-color);
-            transform: scale(1.1);
-        }
-        .lien:hover{
-            cursor: pointer;
-            color: #e6a82e;
-        }
-        .nav_menu {
-            background-color: var(--dark-bg) !important;
-            color: var(--text-light) !important;
-        }
-         .nav_about {
-            background-color: var(--dark-bg) !important;
-            color: var(--text-light) !important;
-        }
-        .nav_book_table{
-            background-color: var(--dark-bg) !important;
-            color: var(--text-light) !important;
-        }
-        .collapse ul li .home{
-            color: #FFBE33!important;
-        }
+ }
 
-      
-        
-        @media (max-width: 768px) {
-            .hero-content h1 {
-                font-size: 2.5rem;
-            }
-            
-            .section-title {
-                font-size: 2rem;
-            }
-            .mika{
-                width: 100% !important;
-            }
-        }
+ /* Footer */
+ footer {
+     background-color: var(--dark-bg);
+     color: var(--text-light);
+     padding: 3rem 0 1rem;
+ }
+
+ footer h5 {
+     font-family: 'Dancing Script', cursive;
+     font-size: 2rem;
+ }
+
+ footer .social-icons a {
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     background-color: white;
+     color: var(--dark-bg);
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     margin: 0 0.3rem;
+     transition: all 0.3s;
+ }
+
+ footer .social-icons a:hover {
+     background-color: var(--primary-color);
+     transform: scale(1.1);
+ }
+
+ .lien:hover {
+     cursor: pointer;
+     color: #e6a82e;
+ }
+
+ .nav_menu {
+     background-color: var(--dark-bg) !important;
+     color: var(--text-light) !important;
+ }
+
+ .nav_about {
+     background-color: var(--dark-bg) !important;
+     color: var(--text-light) !important;
+ }
+
+ .nav_book_table {
+     background-color: var(--dark-bg) !important;
+     color: var(--text-light) !important;
+ }
+
+ .collapse ul li .home {
+     color: #FFBE33 !important;
+ }
+
+
+
+ @media (max-width: 768px) {
+     .hero-content h1 {
+         font-size: 2.5rem;
+     }
+
+     .section-title {
+         font-size: 2rem;
+     }
+
+     .mika {
+         width: 100% !important;
+     }
+ }
