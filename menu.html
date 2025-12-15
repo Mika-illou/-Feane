@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <section class="principale-section mb-5 ">
+        <nav class="navbar navbar-expand-lg  nav_menu">
+            <div class="container">
+                <a class="logo" href="#">Feane</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    style="background-color: var(--primary-color);">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                   <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                        <li class="nav-item "><a class="nav-link home" href="menu.html">MENU</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="book_table.html">BOOK TABLE</a></li>
+                    </ul>
+
+                    <!-- Icônes et bouton pour mobile (visibles dans le menu déroulant) -->
+                    <div class="d-lg-none mt-3 text-center">
+                        <div class="d-flex justify-content-center align-items-center gap-4 mb-3">
+                            <i class="bi bi-person text-white fs-4"></i>
+                            <i class="bi bi-cart text-white fs-4"></i>
+                            <i class="bi bi-search text-white fs-4"></i>
+                        </div>
+                        <button class="btn btn-order w-75">Order Online</button>
+                    </div>
+                </div>
+
+                <!-- Icônes et bouton pour desktop (toujours visibles) -->
+                <div class="lien_icoin d-none d-lg-flex align-items-center gap-3">
+                    <i class="bi bi-person text-white fs-5"></i>
+                    <i class="bi bi-cart text-white fs-5"></i>
+                    <i class="bi bi-search text-white fs-5"></i>
+                    <button class="btn btn-order">Order Online</button>
+                </div>
+            </div>
+        </nav>
+        <div class="container menu_resto mt-5">
+
+            <h2 class="section-title">Our Menu</h2>
+            <div class="menu-filters">
+                <button class="btn active">All</button>
+                <button class="btn">Burger</button>
+                <button class="btn">Pizza</button>
+                <button class="btn">Pasta</button>
+                <button class="btn">Fries</button>
+            </div>
+            <div class="row g-4">
+                <!-- CARD 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card bg-dark border-0 h-100 p-0">
+                        <div class="d-flex bg-light justify-content-center align-items-center Tree_card">
+                            <img src="./image/f1.png" class="card-img-top" alt="Delicious Pizza">
+                        </div>
+                        <div class="text-white card-body position-relative">
+                            <h5 class="card-title">Delicious Pizza</h5>
+                            <p class="card-text small">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                                velit, magnam voluptatem repellendus sed eaque</p>
+                            <p class="price mb-0 mt-3 fw-bold">$20</p>
+                            <button class="cart-btn mt-5">
+                                <i class="bi bi-cart text-white fs-5"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card bg-dark border-0 h-100 p-0">
+                        <div class="d-flex bg-light justify-content-center align-items-center Tree_card">
+                            <img src="./image/f2.png" class="card-img-top" alt="Delicious Burger">
+                        </div>
+                        <div class="text-white card-body position-relative">
+                            <h5 class="card-title">Delicious Burger</h5>
+                            <p class="card-text small">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                                velit, magnam voluptatem repellendus sed eaque</p>
+                            <p class="price mb-0 mt-3 fw-bold">$15</p>
+                            <button class="cart-btn mt-5">
+                                <i class="bi bi-cart text-white fs-5"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card bg-dark border-0 h-100 p-0">
+                        <div class="d-flex bg-light justify-content-center align-items-center Tree_card">
+                            <img src="./image/f3.png" class="card-img-top" alt="Delicious Pizza">
+                        </div>
+                        <div class="text-white card-body position-relative">
+                            <h5 class="card-title">Delicious Pizza</h5>
+                            <p class="card-text small">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                                velit, magnam voluptatem repellendus sed eaque</p>
+                            <p class="price mb-0 mt-3 fw-bold">$17</p>
+                            <button class="cart-btn mt-5">
+                                <i class="bi bi-cart text-white fs-5"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card bg-dark border-0 h-100 p-0">
+                        <div class="d-flex bg-light justify-content-center align-items-center Tree_card">
+                            <img src="./image/f4.png" class="card-img-top" alt="Delicious Pasta">
+                        </div>
+                        <div class="text-white card-body position-relative">
+                            <h5 class="card-title">Delicious Pasta</h5>
+                            <p class="card-text small">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                                velit, magnam voluptatem repellendus sed eaque</p>
+                            <p class="price mb-0 mt-3 fw-bold">$18</p>
+                            <button class="cart-btn mt-5">
+                                <i class="bi bi-cart text-white fs-5"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 5 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card bg-dark border-0 h-100 p-0">
+                        <div class="d-flex bg-light justify-content-center align-items-center Tree_card">
+                            <img src="./image/f5.png" class="card-img-top" alt="French Fries">
+                        </div>
+                        <div class="text-white card-body position-relative">
+                            <h5 class="card-title">French Fries</h5>
+                            <p class="card-text small">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                                velit, magnam voluptatem repellendus sed eaque</p>
+                            <p class="price mb-0 mt-3 fw-bold">$10</p>
+                            <button class="cart-btn mt-5">
+                                <i class="bi bi-cart text-white fs-5"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 6 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card bg-dark border-0 h-100 p-0">
+                        <div class="d-flex bg-light justify-content-center align-items-center Tree_card">
+                            <img src="./image/f6.png" class="card-img-top" alt="Delicious Pizza">
+                        </div>
+                        <div class="text-white card-body position-relative">
+                            <h5 class="card-title">Delicious Pizza</h5>
+                            <p class="card-text small">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                                velit, magnam voluptatem repellendus sed eaque</p>
+                            <p class="price mb-0 mt-3 fw-bold">$15</p>
+                            <button class="cart-btn mt-5">
+                                <i class="bi bi-cart text-white fs-5"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 7 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card bg-dark border-0 h-100 p-0">
+                        <div class="d-flex bg-light justify-content-center align-items-center Tree_card">
+                            <img src="./image/f7.png" class="card-img-top" alt="Delicious Pasta">
+                        </div>
+                        <div class="text-white card-body position-relative">
+                            <h5 class="card-title">Delicious Pasta</h5>
+                            <p class="card-text small">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                                velit, magnam voluptatem repellendus sed eaque</p>
+                            <p class="price mb-0 mt-3 fw-bold">$12</p>
+                            <button class="cart-btn mt-5">
+                                <i class="bi bi-cart text-white fs-5"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 8 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card bg-dark border-0 h-100 p-0">
+                        <div class="d-flex bg-light justify-content-center align-items-center Tree_card">
+                            <img src="./image/f8.png" class="card-img-top" alt="French Fries">
+                        </div>
+                        <div class="text-white card-body position-relative">
+                            <h5 class="card-title">French Fries</h5>
+                            <p class="card-text small">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                                velit, magnam voluptatem repellendus sed eaque</p>
+                            <p class="price mb-0 mt-3 fw-bold">$14</p>
+                            <button class="cart-btn mt-5">
+                                <i class="bi bi-cart text-white fs-5"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 9 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card bg-dark border-0 h-100 p-0">
+                        <div class="d-flex bg-light justify-content-center align-items-center Tree_card">
+                            <img src="./image/f9.png" class="card-img-top" alt="Delicious Pizza">
+                        </div>
+                        <div class="text-white card-body position-relative">
+                            <h5 class="card-title">Delicious Pizza</h5>
+                            <p class="card-text small">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                                velit, magnam voluptatem repellendus sed eaque</p>
+                            <p class="price mb-0 mt-3 fw-bold">$10</p>
+                            <button class="cart-btn mt-5">
+                                <i class="bi bi-cart text-white fs-5"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5 "><button class="btn btn-order btn-lg">view more</button></div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>Contact Us</h5>
+                    <p class="lien"><i class="bi bi-geo-alt"></i> Location</p>
+                    <p class="lien"><i class="bi bi-telephone"></i> Call +227 85822480</p>
+                    <p class="lien"><i class="bi bi-envelope"></i> demo@gmail.com</p>
+                </div>
+                <div class="col-md-4 mb-4 text-center">
+                    <h5 class="mb-2">Feane</h5>
+                    <p>Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200
+                        Latin words, combined with</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 text-md-end">
+                    <h5 class="mb-2">Opening Hours</h5>
+                    <p class="lien">Everyday</p>
+                    <p class="lien">10.00 Am -10.00 Pm</p>
+                </div>
+            </div>
+            <div class="text-center py-3">
+                <p class="mb-0 lien text-center">© 2025 All Rights Reserved By Free Html Templates</p>
+                <p class="mb-0 small lien text-center">© Distributed By Code Runner</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
